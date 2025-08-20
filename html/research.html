@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ZGEM | Research</title>
+  
+  <!-- Favicon: Pending -->
+  <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+  <!-- or for .ico -->
+  <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo"><strong>ZGEM Research Group</strong></div>
+    <div>
+    <a href="../index.html#about">About</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="people.html">People</a>      
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="join.html">Join</a>
+      <a href="../index.html#contact">Contact</a>
+      <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark</button>
+    </div>
+  </nav>
+  
+
+  <!-- Research -->
+  <section id="research"> 
+    <h2>Research Highlights</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Discovering the full spectrum of soil motion behavior</h3>
+        <p>This NSF-CAREER project will explore soil motion transition from solid to liquid behavior and its role in landslide runout. The project will investigate soil motions experimentally, numerically, and across scales.</p>
+      </div>
+      <div class="card">
+        <h3>Simulation visualization in Virtual Reality (VR)</h3>
+        <p>Visualization of numerical models require an advanced level of abstraction and it typically does not convey critical information such as scale and magnitude with respect to an individual point of view. In this project we leverage VR for visualization of landslide simulations using the Material Point Method.<br>
+               This project is funded by the VEMI lab at the University of Maine.</p>
+      </div>
+      <div class="card">
+        <h3>Roots Digital Twins</h3>
+        <p>There have been an increasing interest in the geotechnical community to understand soil-root interaction aiming to learn from nature how to make foundations stronger, economical, and resilient. In this project we aim to create a unique numerical simulation framework that can simulate soil-root interaction, including aspects such as complex shapes, water intake, and grow over years. This project is funded by NC State.</p>
+      </div>
+
+      <div class="card">
+        <h3>Eolian Erosion in Coastal Dunes</h3>
+        <p>This NSF funded project investigates the interplay between water transport due to capillary rise, water evaporation, and eolian sediment transport in coastal dunes. This study will help us understand how transient water contents at the surface of coastal dunes condition the rate of eolian erosion, therefore impacting the mid and long term dune morphology evolution.</p>
+    </div>
+
+    <div class="card">
+        <h3>Microbially Induced Desaturation (MID) Modelling</h3>
+        <p>This NSF funded project investigates the effectiveness and longevity of MID as technique for liquefaction mitigation. The role of our group is to develop a 1D and 2D Finite Element Model capable of simulating the grow and transport of gasses in the soil pours. Using a combination of laboratory experiments and the proposed model we want to understand how long will the gas stay in place until another treatment is needed.</p>
+    </div>
+
+    <div class="card">
+        <h3>Soil Carbonation Modelling</h3>
+        <p>This project aims to understand the process of accelerated soil carbonation of soils as an efficient, sustainable, and environmentally friendly soil stabilization solution. We developed 2D FEM codes to simulate multi-gas transport and carbonation reaction kinetics leading to the precipitation of calcium carbonate bonds. This project was funded by the Transportation and Durability Center at UMaine.</p>
+    </div>
+
+    <div class="card">
+        <h3>Additive Manufacturing with Clay</h3>
+        <p>Additive manufacturing, also known as 3D printing, is described as one of the technologies enabling the fourth industrial revolution. Recently earthen materials have emerged as valid alternatives to concrete. This project studied how soil mechanics concepts can be used to predict the printability of naturally sourced clays. A rapid characterization of clay properties will reduce the process of trial and error to optimize printing properties and enhance printing quality.
+            This project was funded by UMaine.</p>
+    </div>
+    </div>
+
+
+  </section>
+
+  <!-- People -->
+  <!-- <section id="people"> <------Pending
+    <h2>Our Team</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Dr. [Your Name]</h3>
+        <p>Principal Investigator — Expertise in soil mechanics, numerical methods, and geotechnical education.</p>
+      </div>
+      <div class="card">
+        <h3>Graduate Students</h3>
+        <p>A talented group of researchers exploring cutting-edge problems in geomechanics.</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ZGEM Research Group | Built with 💡 + HTML/CSS</p>
+  </footer>
+
+  <!-- Script for Dark Mode -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+      const btn = document.querySelector(".toggle-btn");
+      if (document.body.classList.contains("dark")) {
+        btn.textContent = "☀️ Light";
+      } else {
+        btn.textContent = "🌙 Dark";
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ZGEM | News</title>
+  
+  <!-- Favicon: Pending -->
+  <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+  <!-- or for .ico -->
+  <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo"><strong>ZGEM Research Group</strong></div>
+    <div>
+    <a href="../index.html#about">About</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="people.html">People</a>      
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+      <a href="join.html">Join</a>
+      <a href="../index.html#contact">Contact</a>
+      <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark</button>
+    </div>
+  </nav>
+  
+
+    <section id="news">
+        <h2 style="margin-top: 50px;">📰 Latest News</h2>
+      
+        <div class="news-container">
+
+        <article class="news-item">
+            <img src="images/conference.jpg" alt="Conference photo">
+            <div class="news-content">
+                <h3>Dr. Zambrano-Cruzatty awarded prestigious NSF CAREER Award</h3>
+                <p>Dr. Zambrano-Cruzatty was awarded the prestigious NSF CAREER Award. His project will investigate the physics controlling soil motion behavior transitions from solid to liquid-like behaviors. This behavior transition is observed during landslides, where soil behavior can be modeled using solid mechanics principles before triggering and using rheological models during the large deformation process. The study will leverage various computational methods such as Discrete Element Method, constitutive models, and the Material Point Method. The project will also include unique experiments including rheological tests and centrifuge modeling of colum collapse.</p>
+                <span class="date">July 7, 2025</span>
+            </div>
+            </article>
+          
+          <!-- News Item 1 -->
+          <article class="news-item">
+            <img src="images/conference.jpg" alt="Conference photo">
+            <div class="news-content">
+              <h3>Paula Sarmiento completed wind tunnel experiments at NHERI's Boundary Layer Wind Tunnel</h3>
+              <p>Research Assistant and ZGEM member completed experiments at NHERI's Boundary Layer Wind Tunnel. She is studying the interplay between water transport fue to capillary rise and evaporation on eolian sediment transport. She has documented interesting phenomena such as intermitent erosion and modified morphological evolution changing with surface moisture content. This project was funded by The National Science Foundation</p>
+              <span class="date">August 1, 2025</span>
+            </div>
+          </article>
+      
+          <!-- News Item 2 with video -->
+          <article class="news-item">
+            <div class="news-media">
+              <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="news-content">
+              <h3>ZGEM moves to NC State!</h3>
+              <p>The ZGEM group is in NC State University! <br>
+                 Starting August 16th, Zambrano-Cruzatty and student collaborators are affiliated with North Carolina State University.</p>
+              <span class="date">August 16, 2025</span>
+            </div>
+          </article>
+  
+      
+        </div>
+      </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ZGEM Research Group | Built with 💡 + HTML/CSS</p>
+  </footer>
+
+  <!-- Script for Dark Mode -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+      const btn = document.querySelector(".toggle-btn");
+      if (document.body.classList.contains("dark")) {
+        btn.textContent = "☀️ Light";
+      } else {
+        btn.textContent = "🌙 Dark";
+      }
+    }
+  </script>
+
+</body>
+</html>

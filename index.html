@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ZGEM Research Group</title>
+  
+  <!-- Favicon: Pending -->
+  <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+  <!-- or for .ico -->
+  <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo"><strong>ZGEM Research Group</strong></div>
+    <div>
+      <a href="#about">About</a>
+      <a href="html/research.html">Research</a>
+      <a href="html/teaching.html">Teaching</a>
+      <a href="html/people.html">People</a>      
+      <a href="html/news.html">News</a>
+      <a href="html/publications.html">Publications</a>
+      <a href="html/join.html">Join</a>
+      <a href="#contact">Contact</a>
+
+      <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Welcome to the <strong>Z</strong>ambrano's <strong>G</strong>eomechanics and <strong>E</strong>arth Systems <strong>M</strong>odeling Research Group</h1>
+    <p>Exploring innovative solutions in geotechnical engineering, numerical modeling, and soil behavior transitions.</p>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>    
+<p>We are a research group at North Carolina State University dedicated to <strong>advancing the understanding of complex geomechanics problems that impact society</strong>. Our work addresses critical topics such as soil erosion, ground improvement, foundation installation, high-velocity impacts on soils, and landslides. By combining advanced numerical modeling with experimental investigations, we aim to generate knowledge that leads directly to safer, more resilient engineering solutions.</p> <br>
+
+<h4>What is the core of our work?</h4>
+<p>Our group develops and applies cutting-edge computational and experimental methods to uncover how soils behave under diverse conditions. We use finite element methods, the material point method, and discrete element methods to model soil–structure interactions and debris flows. A central theme in our work is the role of critical state soil mechanics in explaining soil response under extreme loading. <strong>Group members are active contributors—both users and developers—of these tools, gaining skills that not only reveal new insights into soil behavior but also translate directly to real-world engineering practice.</strong></p> <br>
+
+<h4>Research Across Scales</h4>
+<p>Our research spans from the grain scale to the system scale, recognizing that soil behavior at small scales governs the large-scale phenomena we see in the field. By connecting these scales, we uncover the mechanisms behind transitions in soil motion, such as the sudden shift from stability to flow during a landslide. This multiscale perspective allows us to bridge fundamental science with pressing engineering challenges.</p> <br>
+
+
+    <h4>Why Join Us?</h4>
+    <p>Being part of our group means contributing to research that is both scientifically rigorous and deeply connected to real-world needs. We foster a collaborative environment where students are encouraged to ask bold questions, explore innovative methods, and develop solutions with lasting impact. By working across numerical modeling, experimentation, and theory, group members gain a versatile skill set that prepares them for careers in academia, industry, and beyond.</p> <br>
+    
+    <p><strong>Our vision is to build a community of researchers who are not only advancing the science of geomechanics but also shaping how engineering responds to society’s most pressing challenges.</strong> If you are motivated by curiosity, collaboration, and the desire to make a difference, you will find a home in our lab.</p>
+    
+  </section>
+
+  <!-- Research -->
+  <!-- <section id="research"> <------Pending
+    <h2>Research Highlights</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Numerical Modeling</h3>
+        <p>Developing advanced computational models for soil-structure interaction and debris flows.</p>
+      </div>
+      <div class="card">
+        <h3>Soil Behavior</h3>
+        <p>Investigating soil transitions under extreme events and the role of critical state theory.</p>
+      </div>
+      <div class="card">
+        <h3>Engineering Education</h3>
+        <p>Creating immersive virtual reality tools to engage students in geotechnical laboratory experiences.</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- People -->
+  <!-- <section id="people"> <------Pending
+    <h2>Our Team</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Dr. [Your Name]</h3>
+        <p>Principal Investigator — Expertise in soil mechanics, numerical methods, and geotechnical education.</p>
+      </div>
+      <div class="card">
+        <h3>Graduate Students</h3>
+        <p>A talented group of researchers exploring cutting-edge problems in geomechanics.</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:lezambra@ncsu.edu">lezambra@ncsu.edu</a></p>
+    <p>Department of Civil, Construction, and Environmental Engineering<br>North Carolina State University</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ZGEM Research Group | Built with 💡 + HTML/CSS</p>
+  </footer>
+
+  <!-- Script for Dark Mode -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+      const btn = document.querySelector(".toggle-btn");
+      if (document.body.classList.contains("dark")) {
+        btn.textContent = "☀️ Light";
+      } else {
+        btn.textContent = "🌙 Dark";
+      }
+    }
+  </script>
+
+</body>
+</html>
